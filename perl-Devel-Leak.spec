@@ -1,6 +1,6 @@
 Name:           perl-Devel-Leak
 Version:        0.03
-Release:        20%{?dist}
+Release:        22%{?dist}
 Summary:        Utility for looking for perl objects that are not reclaimed
 License:        GPL+ or Artistic
 Group:          Development/Libraries
@@ -46,6 +46,12 @@ make test
 %{_mandir}/man3/*
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 0.03-22
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 0.03-21
+- Mass rebuild 2013-12-27
+
 * Wed Nov 14 2012 Marcela Mašláňová <mmaslano@redhat.com> - 0.03-20
 - Remove BuildRoot definition.
 - Remove BuildRoot cleaning.
